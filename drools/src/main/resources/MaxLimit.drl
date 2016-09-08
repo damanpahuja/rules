@@ -6,7 +6,7 @@ rule "Dubai with platinum"
 	when
 		max : MaxLimit(country == "Dubai" , type == "Platinum", amount <= 50000)
 	then
-		System.out.println("hello, Dubai - Platinum - customer33, you can buy");
+		System.out.println("hello, Dubai - Platinum - customer555555, done, you can buy");
 		max.setValid(true);
 		update(max);
 end
